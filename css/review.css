@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    background-color: #d1e0e0;
+    text-transform: capitalize;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px;
+    font-size: 25px;
+}
+
+.underline{
+    border-bottom: 4px solid rgb(30, 144, 255);
+    width: 90px;
+    margin: -20px auto;
+}
+
+.review{
+    background-color: white;
+    margin: 100px auto;
+    width: 40vw;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px rgb(100, 98, 98);
+    
+}
+
+.img-container img{
+    width: 150px;
+    border-radius: 20rem;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    display: block;
+    height: auto;
+    box-shadow: 12px 0px  rgb(30, 144, 255);
+    
+    
+}
+
+#author{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+#job{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(30, 144, 255);
+}
+
+#info{
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.button-container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.prev-btn, .next-btn .fa{
+    color: rgb(30, 144, 255);
+    font-size: 20px;
+    
+}
+
+.prev-btn, .next-btn{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.random-btn{
+    display: block;
+    width: 100px;
+    margin: 30px auto;
+    padding: 5px 10px;
+    border-radius: .8rem;
+    position: relative;
+    bottom: 15px;
+    border: none;
+    color: rgb(30, 144, 255);
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+   
+    
+}
